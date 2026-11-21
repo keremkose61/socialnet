@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#140a24"/>
+    </linearGradient>
+    <linearGradient id="liveWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#aiBg)"/>
+
+  <!-- Live Pulse Circles -->
+  <circle cx="400" cy="200" r="140" fill="none" stroke="rgba(239, 68, 68, 0.15)" stroke-width="4"/>
+  <circle cx="400" cy="200" r="100" fill="none" stroke="rgba(239, 68, 68, 0.3)" stroke-width="3"/>
+  <circle cx="400" cy="200" r="60" fill="none" stroke="rgba(239, 68, 68, 0.6)" stroke-width="2"/>
+  <circle cx="400" cy="200" r="22" fill="#EF4444"/>
+
+  <!-- Live Waveform -->
+  <path d="M50,340 Q150,260 250,340 T450,340 T650,340 T750,340" fill="none" stroke="url(#liveWave)" stroke-width="6"/>
+  <path d="M50,340 Q120,410 220,340 T420,340 T620,340 T750,340" fill="none" stroke="url(#liveWave)" stroke-width="3" opacity="0.6"/>
+
+  <rect x="330" y="70" width="140" height="42" rx="21" fill="rgba(239,68,68,0.9)"/>
+  <circle cx="355" cy="91" r="5" fill="#FFFFFF"/>
+  <text x="405" y="97" font-family="-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">LIVE BROADCAST</text>
+</svg>

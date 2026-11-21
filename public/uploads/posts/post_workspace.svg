@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="deskWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#0F0F12"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090F"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#deskWood)"/>
+  <!-- Ambient Backlight -->
+  <ellipse cx="400" cy="200" rx="360" ry="120" fill="#8B5CF6" opacity="0.25" filter="blur(60px)"/>
+
+  <!-- Ultrawide Curved Monitor -->
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="600" height="240" rx="14" fill="#09090F" stroke="#29293A" stroke-width="4"/>
+    <!-- Screen Bezel & Display -->
+    <rect x="12" y="12" width="576" height="216" rx="8" fill="url(#screenGrad)"/>
+    <!-- Code Editor UI on Monitor -->
+    <rect x="24" y="24" width="280" height="192" rx="6" fill="#12121C" stroke="#29293A"/>
+    <circle cx="36" cy="36" r="4" fill="#EF4444"/>
+    <circle cx="48" cy="36" r="4" fill="#F59E0B"/>
+    <circle cx="60" cy="36" r="4" fill="#10B981"/>
+    <!-- Code lines -->
+    <g fill="#A78BFA" opacity="0.8">
+      <rect x="36" y="55" width="120" height="6" rx="3" fill="#22D3EE"/>
+      <rect x="36" y="70" width="180" height="5" rx="2.5"/>
+      <rect x="48" y="85" width="140" height="5" rx="2.5" fill="#C084FC"/>
+      <rect x="48" y="100" width="200" height="5" rx="2.5"/>
+      <rect x="48" y="115" width="90" height="5" rx="2.5" fill="#34D399"/>
+      <rect x="36" y="135" width="160" height="5" rx="2.5"/>
+      <rect x="36" y="150" width="70" height="5" rx="2.5" fill="#F43F5E"/>
+    </g>
+
+    <!-- Browser Preview Window on Monitor -->
+    <rect x="316" y="24" width="260" height="192" rx="6" fill="#09090F" stroke="#29293A"/>
+    <rect x="328" y="36" width="140" height="14" rx="7" fill="#191927"/>
+    <rect x="328" y="65" width="236" height="70" rx="8" fill="linear-gradient(135deg, #4C1D95, #0E7490)"/>
+    <rect x="328" y="148" width="110" height="18" rx="6" fill="#8B5CF6"/>
+    <rect x="450" y="148" width="110" height="18" rx="6" fill="#191927"/>
+    <!-- Monitor Stand -->
+    <path d="M280 240 L320 240 L330 290 L270 290 Z" fill="#27272A"/>
+    <rect x="250" y="290" width="100" height="8" rx="4" fill="#3F3F46"/>
+  </g>
+
+  <!-- Large Desk Mat -->
+  <rect x="140" y="380" width="520" height="180" rx="16" fill="#12121C" stroke="#29293A" stroke-width="2"/>
+
+  <!-- Custom Mechanical Keyboard -->
+  <g transform="translate(240, 410)">
+    <rect x="0" y="0" width="260" height="90" rx="10" fill="#18181B" stroke="#3F3F46" stroke-width="2"/>
+    <!-- Key rows with purple & cyan keycaps -->
+    <g fill="#27272A">
+      <rect x="10" y="10" width="16" height="12" rx="2" fill="#8B5CF6"/>
+      <rect x="30" y="10" width="16" height="12" rx="2"/>
+      <rect x="50" y="10" width="16" height="12" rx="2"/>
+      <rect x="70" y="10" width="16" height="12" rx="2"/>
+      <rect x="90" y="10" width="16" height="12" rx="2"/>
+      <rect x="110" y="10" width="16" height="12" rx="2"/>
+      <rect x="130" y="10" width="16" height="12" rx="2"/>
+      <rect x="150" y="10" width="16" height="12" rx="2"/>
+      <rect x="170" y="10" width="16" height="12" rx="2"/>
+      <rect x="190" y="10" width="16" height="12" rx="2"/>
+      <rect x="210" y="10" width="38" height="12" rx="2" fill="#22D3EE"/>
+
+      <rect x="10" y="26" width="22" height="12" rx="2"/>
+      <rect x="36" y="26" width="16" height="12" rx="2"/>
+      <rect x="56" y="26" width="16" height="12" rx="2"/>
+      <rect x="76" y="26" width="16" height="12" rx="2"/>
+      <rect x="96" y="26" width="16" height="12" rx="2"/>
+      <rect x="116" y="26" width="16" height="12" rx="2"/>
+      <rect x="136" y="26" width="16" height="12" rx="2"/>
+      <rect x="156" y="26" width="16" height="12" rx="2"/>
+      <rect x="176" y="26" width="16" height="12" rx="2"/>
+      <rect x="196" y="26" width="52" height="12" rx="2" fill="#8B5CF6"/>
+
+      <!-- Spacebar -->
+      <rect x="76" y="65" width="108" height="14" rx="3" fill="#22D3EE"/>
+    </g>
+  </g>
+
+  <!-- Ergonomic Wireless Mouse -->
+  <g transform="translate(540, 430)">
+    <rect x="0" y="0" width="46" height="70" rx="22" fill="#18181B" stroke="#3F3F46" stroke-width="1.5"/>
+    <line x1="23" y1="6" x2="23" y2="30" stroke="#29293A" stroke-width="2"/>
+    <rect x="20" y="16" width="6" height="12" rx="3" fill="#8B5CF6"/>
+  </g>
+
+  <!-- Pour-Over Ceramic Coffee Mug -->
+  <g transform="translate(680, 420)">
+    <circle cx="28" cy="28" r="28" fill="#27272A"/>
+    <circle cx="28" cy="28" r="23" fill="#3E2723"/>
+    <circle cx="28" cy="28" r="16" fill="#4E342E"/>
+    <!-- Mug Handle -->
+    <path d="M54 18 Q66 28 54 38" stroke="#27272A" stroke-width="5" fill="none"/>
+  </g>
+</svg>

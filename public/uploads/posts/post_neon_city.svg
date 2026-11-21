@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#05050A"/>
+      <stop offset="60%" stop-color="#1E1035"/>
+      <stop offset="100%" stop-color="#3B0764"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+  
+  <!-- Neon Moon / Giant Orb -->
+  <circle cx="560" cy="180" r="110" fill="#EC4899" opacity="0.3" filter="blur(40px)"/>
+  <circle cx="560" cy="180" r="80" fill="#F43F5E" opacity="0.8"/>
+  <circle cx="560" cy="180" r="76" fill="#FDE047" opacity="0.95"/>
+
+  <!-- Distant Skyscrapers Silhouette -->
+  <path d="M40 600 L40 280 L90 280 L90 600 L110 600 L110 220 L160 220 L160 600 L190 600 L190 320 L240 320 L240 600 L280 600 L280 180 L350 180 L350 600 L380 600 L380 250 L430 250 L430 600 L470 600 L470 140 L520 140 L520 600 L560 600 L560 210 L620 210 L620 600 L660 600 L660 270 L720 270 L720 600 L760 600 L760 350 L800 350 L800 600 Z" fill="#09090F"/>
+
+  <!-- Glowing Windows on Skyscrapers -->
+  <g fill="#22D3EE" opacity="0.75">
+    <rect x="125" y="240" width="6" height="6"/>
+    <rect x="135" y="240" width="6" height="6"/>
+    <rect x="125" y="260" width="6" height="6"/>
+    <rect x="145" y="280" width="6" height="6"/>
+    <rect x="300" y="210" width="8" height="8" fill="#F43F5E"/>
+    <rect x="320" y="210" width="8" height="8"/>
+    <rect x="300" y="240" width="8" height="8"/>
+    <rect x="320" y="270" width="8" height="8" fill="#F43F5E"/>
+    <rect x="485" y="160" width="6" height="6" fill="#FDE047"/>
+    <rect x="500" y="180" width="6" height="6"/>
+    <rect x="485" y="210" width="6" height="6" fill="#22D3EE"/>
+    <rect x="500" y="240" width="6" height="6"/>
+    <rect x="680" y="290" width="8" height="8" fill="#EC4899"/>
+    <rect x="700" y="320" width="8" height="8"/>
+  </g>
+
+  <!-- Wet Street Reflection Grid -->
+  <rect x="0" y="480" width="800" height="120" fill="#09090F" opacity="0.95"/>
+  <path d="M0 480 L800 480" stroke="#EC4899" stroke-width="2" opacity="0.6"/>
+  <path d="M0 520 L800 520" stroke="#22D3EE" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0 570 L800 570" stroke="#8B5CF6" stroke-width="1" opacity="0.3"/>
+
+  <!-- Vertical Neon Reflections in Puddle -->
+  <rect x="290" y="485" width="40" height="100" fill="url(#neonPink)" opacity="0.25" filter="blur(10px)"/>
+  <rect x="475" y="485" width="45" height="110" fill="url(#neonCyan)" opacity="0.3" filter="blur(10px)"/>
+  <rect x="540" y="485" width="50" height="90" fill="#FDE047" opacity="0.2" filter="blur(10px)"/>
+
+  <!-- Overlay Typography Tag -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="rgba(9, 9, 15, 0.75)" stroke="#EC4899" stroke-width="1.5"/>
+    <text x="90" y="22" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="12" font-weight="800" fill="#F43F5E" text-anchor="middle">✦ NIGHT PHOTOGRAPHY</text>
+  </g>
+  <text x="50" y="160" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" letter-spacing="-1">Neo Istanbul 2026</text>
+  <text x="50" y="195" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="16" font-weight="500" fill="#A78BFA">Yağmur sonrası sokak yansımaları ve neon estetiği.</text>
+</svg>

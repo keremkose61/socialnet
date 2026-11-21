@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="35%" stop-color="#581C87"/>
+      <stop offset="65%" stop-color="#C2410C"/>
+      <stop offset="85%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FEF08A"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sunsetSky)"/>
+
+  <!-- Golden Sun -->
+  <circle cx="400" cy="360" r="140" fill="#FEF08A" opacity="0.35" filter="blur(30px)"/>
+  <circle cx="400" cy="360" r="80" fill="url(#sunGlow)"/>
+
+  <!-- Distant Mountains -->
+  <path d="M0 450 L120 370 L240 430 L380 340 L500 410 L640 330 L760 390 L800 370 L800 600 L0 600 Z" fill="#4C1D95" opacity="0.55"/>
+
+  <!-- Mid-Range Mountain Range -->
+  <path d="M0 490 L160 410 L310 460 L450 380 L600 440 L720 370 L800 420 L800 600 L0 600 Z" fill="#311042" opacity="0.8"/>
+
+  <!-- Foreground Dark Pine Forest Silhouette -->
+  <path d="M0 530 L40 500 L70 540 L110 480 L150 530 L190 490 L240 550 L290 470 L340 540 L390 495 L440 545 L490 475 L540 535 L600 485 L650 530 L710 470 L760 520 L800 480 L800 600 L0 600 Z" fill="#09090F"/>
+
+  <!-- Foreground Trees -->
+  <g fill="#05050A">
+    <path d="M60 600 L80 460 L100 600 Z"/>
+    <path d="M70 490 L60 520 L75 515 L55 550 L85 545 L60 580 L100 580 Z"/>
+    <path d="M720 600 L740 440 L760 600 Z"/>
+  </g>
+
+  <!-- Overlay Typography -->
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="165" height="32" rx="16" fill="rgba(9, 9, 15, 0.6)" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="82" y="21" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="11.5" font-weight="800" fill="#FEF08A" text-anchor="middle">✦ GOLDEN HOUR</text>
+  </g>
+  <text x="60" y="160" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" letter-spacing="-1">Doğanın Sessizliği</text>
+  <text x="60" y="195" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="16" font-weight="500" fill="#FDE68A">Kaçkar Dağları zirvesinde gün batımı ve altın ışık huzmesi.</text>
+</svg>

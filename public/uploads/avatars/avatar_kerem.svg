@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgKerem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="60%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="skinKerem" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="#09090F"/>
+  <circle cx="100" cy="100" r="92" fill="url(#bgKerem)" opacity="0.35"/>
+  <circle cx="100" cy="100" r="88" fill="#12121C"/>
+  <!-- Torso / Jacket -->
+  <path d="M55 175 C55 138 72 128 100 128 C128 128 145 138 145 175 Z" fill="#1E293B"/>
+  <path d="M85 130 L100 155 L115 130 Z" fill="#38BDF8"/>
+  <!-- Head -->
+  <rect x="74" y="78" width="52" height="56" rx="24" fill="#F8FAFC"/>
+  <!-- Tech Glasses -->
+  <rect x="70" y="90" width="26" height="18" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
+  <rect x="104" y="90" width="26" height="18" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
+  <line x1="96" y1="99" x2="104" y2="99" stroke="#38BDF8" stroke-width="2.5"/>
+  <!-- Modern Hair -->
+  <path d="M68 84 C68 58 115 48 132 68 C132 68 115 62 100 66 C85 70 74 76 68 84 Z" fill="#0F172A"/>
+  <!-- Smile -->
+  <path d="M92 118 Q100 123 108 118" stroke="#64748B" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#bgKerem)" stroke-width="3"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgAdmin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="#09090F"/>
+  <circle cx="100" cy="100" r="92" fill="url(#bgAdmin)" opacity="0.3"/>
+  <circle cx="100" cy="100" r="88" fill="#12121C"/>
+  <!-- Futuristic Cyberpunk Head / Avatar -->
+  <path d="M60 170 C60 135 75 125 100 125 C125 125 140 135 140 170 Z" fill="#7C3AED" opacity="0.85"/>
+  <rect x="75" y="80" width="50" height="52" rx="22" fill="#E2E8F0"/>
+  <!-- Cyber Visor / Glasses -->
+  <rect x="68" y="92" width="64" height="20" rx="10" fill="url(#visorGrad)"/>
+  <path d="M72 100 L128 100" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+  <!-- Hair / Hood -->
+  <path d="M66 84 C70 55 130 55 134 84 C120 74 80 74 66 84 Z" fill="#8B5CF6"/>
+  <!-- Glow Earring / Tech Accent -->
+  <circle cx="68" cy="115" r="4" fill="#22D3EE"/>
+  <circle cx="132" cy="115" r="4" fill="#22D3EE"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#visorGrad)" stroke-width="3"/>
+</svg>

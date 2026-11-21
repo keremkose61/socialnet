@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090F"/>
+      <stop offset="100%" stop-color="#12121C"/>
+    </linearGradient>
+    <linearGradient id="phpBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pBg)"/>
+
+  <!-- Top Title Banner -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="160" height="28" rx="14" fill="rgba(34, 211, 238, 0.15)" stroke="#22D3EE"/>
+    <text x="80" y="18" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="11" font-weight="800" fill="#22D3EE" text-anchor="middle">BENCHMARK TEST</text>
+    <text x="0" y="70" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="32" font-weight="900" fill="#F8FAFC" letter-spacing="-1">Saf PHP 8.3 + PDO MVC Gücü</text>
+    <text x="0" y="100" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="15" font-weight="500" fill="#9292A5">Sıfır framework ağırlığı, milisaniye altı sorgu yürütme ve 12,850 req/sec işleme kapasitesi.</text>
+  </g>
+
+  <!-- Metric Badges -->
+  <g transform="translate(60, 180)">
+    <rect x="0" y="0" width="210" height="90" rx="16" fill="#191927" stroke="#29293A" stroke-width="1.5"/>
+    <text x="24" y="36" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="12" font-weight="700" fill="#9292A5">İSTEK / SANİYE</text>
+    <text x="24" y="72" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="30" font-weight="900" fill="#22D3EE">12,850</text>
+  </g>
+
+  <g transform="translate(295, 180)">
+    <rect x="0" y="0" width="210" height="90" rx="16" fill="#191927" stroke="#29293A" stroke-width="1.5"/>
+    <text x="24" y="36" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="12" font-weight="700" fill="#9292A5">YANIT SÜRESİ</text>
+    <text x="24" y="72" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="30" font-weight="900" fill="#10B981">1.8 ms</text>
+  </g>
+
+  <g transform="translate(530, 180)">
+    <rect x="0" y="0" width="210" height="90" rx="16" fill="#191927" stroke="#29293A" stroke-width="1.5"/>
+    <text x="24" y="36" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="12" font-weight="700" fill="#9292A5">RAM TÜKETİMİ</text>
+    <text x="24" y="72" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="30" font-weight="900" fill="#A78BFA">3.2 MB</text>
+  </g>
+
+  <!-- Performance Comparison Bars -->
+  <g transform="translate(60, 310)">
+    <rect x="0" y="0" width="680" height="240" rx="16" fill="#12121C" stroke="#29293A" stroke-width="1.5"/>
+    
+    <!-- Bar 1: Pure PHP 8.3 MVC -->
+    <text x="24" y="44" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="800" fill="#F8FAFC">SocialNet (Pure PHP 8.3 + PDO MVC)</text>
+    <text x="645" y="44" font-family="monospace" font-size="13" font-weight="700" fill="#22D3EE" text-anchor="end">12,850 rps (100%)</text>
+    <rect x="24" y="55" width="620" height="24" rx="12" fill="#191927"/>
+    <rect x="24" y="55" width="620" height="24" rx="12" fill="url(#phpBar)"/>
+
+    <!-- Bar 2: NodeJS Express -->
+    <text x="24" y="114" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="600" fill="#9292A5">Node.js Express + Mongoose</text>
+    <text x="645" y="114" font-family="monospace" font-size="13" font-weight="600" fill="#9292A5" text-anchor="end">6,420 rps (50%)</text>
+    <rect x="24" y="125" width="620" height="24" rx="12" fill="#191927"/>
+    <rect x="24" y="125" width="310" height="24" rx="12" fill="#38BDF8" opacity="0.6"/>
+
+    <!-- Bar 3: Laravel 11 -->
+    <text x="24" y="184" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="600" fill="#9292A5">Laravel 11 Full-Stack ORM</text>
+    <text x="645" y="184" font-family="monospace" font-size="13" font-weight="600" fill="#9292A5" text-anchor="end">2,150 rps (17%)</text>
+    <rect x="24" y="195" width="620" height="24" rx="12" fill="#191927"/>
+    <rect x="24" y="195" width="105" height="24" rx="12" fill="#F43F5E" opacity="0.7"/>
+  </g>
+</svg>

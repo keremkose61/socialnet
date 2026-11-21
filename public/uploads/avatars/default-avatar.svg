@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+    <defs>
+        <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8B5CF6"/>
+            <stop offset="100%" stop-color="#22D3EE"/>
+        </linearGradient>
+    </defs>
+    <rect width="160" height="160" rx="80" fill="#12121C"/>
+    <circle cx="80" cy="80" r="74" fill="#191927" stroke="url(#avatarGlow)" stroke-width="4"/>
+    <circle cx="80" cy="58" r="26" fill="#8B5CF6" opacity="0.9"/>
+    <path d="M40 128 C40 100, 60 92, 80 92 C100 92, 120 100, 120 128 Z" fill="#22D3EE" opacity="0.9"/>
+</svg>

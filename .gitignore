@@ -1,0 +1,17 @@
+# Environment & secrets
+.env
+
+# Dependencies
+/vendor/
+
+# Storage & logs
+/storage/logs/*.log
+/storage/cache/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

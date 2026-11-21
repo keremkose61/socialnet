@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="synthBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="50%" stop-color="#19072b"/>
+      <stop offset="100%" stop-color="#080312"/>
+    </linearGradient>
+    <linearGradient id="eqGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="60%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#synthBg)"/>
+
+  <!-- Equalizer Bars -->
+  <g fill="url(#eqGrad)" rx="8">
+    <rect x="90" y="260" width="38" height="150" rx="10"/>
+    <rect x="145" y="180" width="38" height="230" rx="10"/>
+    <rect x="200" y="120" width="38" height="290" rx="10"/>
+    <rect x="255" y="210" width="38" height="200" rx="10"/>
+    <rect x="310" y="80" width="38" height="330" rx="10"/>
+    <rect x="365" y="160" width="38" height="250" rx="10"/>
+    <rect x="420" y="110" width="38" height="300" rx="10"/>
+    <rect x="475" y="230" width="38" height="180" rx="10"/>
+    <rect x="530" y="90" width="38" height="320" rx="10"/>
+    <rect x="585" y="190" width="38" height="220" rx="10"/>
+    <rect x="640" y="140" width="38" height="270" rx="10"/>
+    <rect x="695" y="250" width="38" height="160" rx="10"/>
+  </g>
+
+  <!-- Track Info Floating Card -->
+  <rect x="80" y="50" width="420" height="60" rx="14" fill="rgba(18, 18, 28, 0.85)" stroke="rgba(236,72,153,0.3)"/>
+  <circle cx="115" cy="80" r="16" fill="#EC4899"/>
+  <text x="145" y="76" font-family="-apple-system,sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">Midnight Synthwave Sessions</text>
+  <text x="145" y="94" font-family="-apple-system,sans-serif" font-size="12" fill="#A78BFA">Lo-Fi Beats • 124 BPM • Deep Focus</text>
+</svg>

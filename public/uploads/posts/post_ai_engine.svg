@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050A"/>
+      <stop offset="50%" stop-color="#0F0C20"/>
+      <stop offset="100%" stop-color="#0A192F"/>
+    </linearGradient>
+    <linearGradient id="glowNet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#aiBg)"/>
+
+  <!-- Neural Net Background Glow -->
+  <circle cx="400" cy="300" r="220" fill="#8B5CF6" opacity="0.15" filter="blur(80px)"/>
+  <circle cx="580" cy="240" r="140" fill="#22D3EE" opacity="0.2" filter="blur(60px)"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="165" height="28" rx="14" fill="rgba(34, 211, 238, 0.15)" stroke="#22D3EE"/>
+    <text x="82" y="18" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="11" font-weight="800" fill="#22D3EE" text-anchor="middle">✦ AI ARCHITECTURE</text>
+    <text x="0" y="70" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="34" font-weight="900" fill="#F8FAFC" letter-spacing="-1">Neural Vector Matrix</text>
+    <text x="0" y="100" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="15" font-weight="500" fill="#9292A5">Çok katmanlı anlamsal uzay haritalandırması ve yerel çıkarım hızları.</text>
+  </g>
+
+  <!-- Network Graph / Tensor Connections -->
+  <g stroke="url(#glowNet)" stroke-width="2" opacity="0.6">
+    <!-- Links -->
+    <line x1="200" y1="240" x2="320" y2="180"/>
+    <line x1="200" y1="240" x2="320" y2="300"/>
+    <line x1="200" y1="360" x2="320" y2="300"/>
+    <line x1="200" y1="360" x2="320" y2="420"/>
+    <line x1="320" y1="180" x2="480" y2="220"/>
+    <line x1="320" y1="180" x2="480" y2="340"/>
+    <line x1="320" y1="300" x2="480" y2="220"/>
+    <line x1="320" y1="300" x2="480" y2="340"/>
+    <line x1="320" y1="420" x2="480" y2="340"/>
+    <line x1="320" y1="420" x2="480" y2="460"/>
+    <line x1="480" y1="220" x2="640" y2="280"/>
+    <line x1="480" y1="340" x2="640" y2="280"/>
+    <line x1="480" y1="460" x2="640" y2="400"/>
+    <line x1="480" y1="340" x2="640" y2="400"/>
+  </g>
+
+  <!-- Node Circles with Glow -->
+  <!-- Layer 1 -->
+  <circle cx="200" cy="240" r="16" fill="#12121C" stroke="#22D3EE" stroke-width="3"/>
+  <circle cx="200" cy="240" r="6" fill="#22D3EE"/>
+  <circle cx="200" cy="360" r="16" fill="#12121C" stroke="#22D3EE" stroke-width="3"/>
+  <circle cx="200" cy="360" r="6" fill="#22D3EE"/>
+
+  <!-- Layer 2 -->
+  <circle cx="320" cy="180" r="18" fill="#12121C" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="320" cy="180" r="7" fill="#8B5CF6"/>
+  <circle cx="320" cy="300" r="22" fill="#12121C" stroke="#8B5CF6" stroke-width="4"/>
+  <circle cx="320" cy="300" r="9" fill="#C084FC"/>
+  <circle cx="320" cy="420" r="18" fill="#12121C" stroke="#8B5CF6" stroke-width="3"/>
+  <circle cx="320" cy="420" r="7" fill="#8B5CF6"/>
+
+  <!-- Layer 3 -->
+  <circle cx="480" cy="220" r="20" fill="#12121C" stroke="#EC4899" stroke-width="3.5"/>
+  <circle cx="480" cy="220" r="8" fill="#EC4899"/>
+  <circle cx="480" cy="340" r="24" fill="#12121C" stroke="#EC4899" stroke-width="4"/>
+  <circle cx="480" cy="340" r="10" fill="#F43F5E"/>
+  <circle cx="480" cy="460" r="18" fill="#12121C" stroke="#EC4899" stroke-width="3"/>
+  <circle cx="480" cy="460" r="7" fill="#EC4899"/>
+
+  <!-- Output Layer -->
+  <circle cx="640" cy="280" r="26" fill="#12121C" stroke="#22D3EE" stroke-width="4"/>
+  <circle cx="640" cy="280" r="12" fill="#22D3EE"/>
+  <circle cx="640" cy="400" r="20" fill="#12121C" stroke="#22D3EE" stroke-width="3"/>
+  <circle cx="640" cy="400" r="8" fill="#22D3EE"/>
+
+  <!-- Bottom Metric Bar -->
+  <g transform="translate(60, 510)">
+    <rect x="0" y="0" width="680" height="46" rx="12" fill="#12121C" stroke="#29293A"/>
+    <text x="24" y="28" font-family="monospace" font-size="12" fill="#22D3EE">Tokens: 1,536-dim</text>
+    <text x="240" y="28" font-family="monospace" font-size="12" fill="#A78BFA">Latency: 14.2ms / token</text>
+    <text x="470" y="28" font-family="monospace" font-size="12" fill="#10B981">Throughput: 84 tokens/s</text>
+  </g>
+</svg>
